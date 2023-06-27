@@ -10,9 +10,9 @@ This is the repository of **Vision Language Models for Vision Tasks: a Survey**,
 <!-- [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org) -->
 <!-- [![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](http://ansicolortags.readthedocs.io/?badge=latest) -->
 
-## News
+## 1.1 News
 
-#### VLM Pre-training Methods
+#### 1.1.1 VLM Pre-training Methods
 * [CVPR 2023] RA-CLIP: Retrieval Augmented Contrastive Language-Image Pre-training [[Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Xie_RA-CLIP_Retrieval_Augmented_Contrastive_Language-Image_Pre-Training_CVPR_2023_paper.pdf)]
 * [CVPR 2023] DeAR: Debiasing Vision-Language Models with Additive Residuals [[Paper](https://arxiv.org/abs/2303.10431)]
 * [arXiv 2023] Improving CLIP Training with Language Rewrites [[Paper](https://arxiv.org/abs/2305.20088)][[Code](https://github.com/LijieFan/LaCLIP)]
@@ -20,7 +20,7 @@ This is the repository of **Vision Language Models for Vision Tasks: a Survey**,
 * [arXiv 2023] Segment Anything [[Paper](https://arxiv.org/abs/2304.02643)][[Code](https://github.com/facebookresearch/segment-anything)]
 
 
-#### VLM Transfer Learning Methods
+#### 1.1.2 VLM Transfer Learning Methods
 * [CVPR 2023] Visual-Language Prompt Tuning with Knowledge-guided Context Optimization [[Paper](https://arxiv.org/abs/2303.13283)][[Code](https://github.com/htyao89/KgCoOp)]
 * [CVPR 2023] Learning to Name Classes for Vision and Language Models [[Paper](https://arxiv.org/abs/2304.01830v1)]
 * [CVPR 2023] Semantic Prompt for Few-Shot Image Recognition [[Paper](https://arxiv.org/abs/2303.14123v1)]
@@ -34,7 +34,7 @@ This is the repository of **Vision Language Models for Vision Tasks: a Survey**,
 * [arXiv 2023] Segment Anything in High Quality [[Paper](https://arxiv.org/abs/2306.01567)][[Code](https://github.com/SysCV/SAM-HQ)]
 * [arXiv 2023] Personalize Segment Anything Model with One Shot [[Paper](https://arxiv.org/abs/2305.03048)][[Code](https://github.com/ZrrSkywalker/Personalize-SAM)]
 
-#### VLM Knowledge Distillation for Detection
+#### 1.1.3 VLM Knowledge Distillation for Detection
 * [CVPR 2023] Aligning Bag of Regions for Open-Vocabulary Object Detection [[Paper](https://arxiv.org/abs/2302.13996)][[Code](https://github.com/wusize/ovdet)]
 * [CVPR 2023] Region-Aware Pretraining for Open-Vocabulary Object Detection with Vision Transformers [[Paper](https://arxiv.org/abs/2305.07011v1)]
 * [CVPR 2023] Object-Aware Distillation Pyramid for Open-Vocabulary Object Detection [[Paper](https://arxiv.org/abs/2303.05892)][[Code](https://github.com/LutingWang/OADP)]
@@ -45,7 +45,7 @@ This is the repository of **Vision Language Models for Vision Tasks: a Survey**,
 * [arXiv 2023] Contextual Object Detection with Multimodal Large Language Models [[Paper](https://arxiv.org/abs/2305.18279)][[Code](https://github.com/yuhangzang/ContextDET)]
 * [arXiv 2023] Building One-class Detector for Anything: Open-vocabulary Zero-shot OOD Detection Using Text-image Models [[Paper](https://arxiv.org/abs/2305.17207)][[Code](https://github.com/gyhandy/One-Class-Anything)]
 
-#### VLM Knowledge Distillation for Segmentation
+#### 1.1.4 VLM Knowledge Distillation for Segmentation
 * [CVPR 2023] FreeSeg: Unified, Universal and Open-Vocabulary Image Segmentation [[Paper](https://arxiv.org/abs/2303.17225v1)][[Code](https://freeseg.github.io/)]
 * [CVPR 2023] Mask-free OVIS: Open-Vocabulary Instance Segmentation without Manual Mask Annotations [[Paper](https://arxiv.org/abs/2303.16891v1)][[Code](https://vibashan.github.io/ovis-web/)]
 * [arXiv 2023] Exploring Open-Vocabulary Semantic Segmentation without Human Labels [[Paper](https://arxiv.org/abs/2306.00450)]
@@ -54,22 +54,11 @@ This is the repository of **Vision Language Models for Vision Tasks: a Survey**,
 * [arXiv 2023] Segment Anything Model (SAM) Enhanced Pseudo Labels for Weakly Supervised Semantic Segmentation [[Paper](https://arxiv.org/abs/2305.05803)][[Code](https://github.com/cskyl/SAM_WSSS)]
 
 
-## Abstract
+## 1.2 Abstract
 
 Most visual recognition studies rely heavily on crowd-labelled data in deep neural networks (DNNs) training, and they usually train a DNN for each single visual recognition task, leading to a laborious and time-consuming visual recognition paradigm. To address the two challenges, Vision Language Models (VLMs) have been intensively investigated recently, which learns rich vision-language correlation from web-scale image-text pairs that are almost infinitely available on the Internet and enables zero-shot predictions on various visual recognition tasks with a single VLM. This paper provides a systematic review of visual language models for various visual recognition tasks, including: (1) the background that introduces the development of visual recognition paradigms; (2) the foundations of VLM that summarize the widely-adopted network architectures, pre-training objectives, and downstream tasks; (3) the widely adopted datasets in VLM pre-training and evaluations; (4) the review and categorization of existing VLM pre-training methods, VLM transfer learning methods, and VLM knowledge distillation methods; (5) the benchmarking, analysis and discussion of the reviewed methods; (6) several research challenges and potential research directions that could be pursued in the future VLM studies for visual recognition.
 
-## Citation
-If you find our work useful in your research, please consider citing:
-```
-@article{zhang2023vision,
-  title={Vision-Language Models for Vision Tasks: A Survey},
-  author={Zhang, Jingyi and Huang, Jiaxing and Jin, Sheng and Lu, Shijian},
-  journal={arXiv preprint arXiv:2304.00685},
-  year={2023}
-}
-```
-
-## Menu
+## 1.3 Menu
 - [Datasets](#datasets)
   - [Datasets for VLM Pre-training](#datasets-for-vlm-pre-training)
   - [Datasets for VLM Evaluation](#datasets-for-vlm-evaluation)
@@ -88,9 +77,9 @@ If you find our work useful in your research, please consider citing:
   - [Knowledge Distillation for Object Detection](#knowledge-distillation-for-object-detection)
   - [Knowledge Distillation for Semantic Segmentation](#knowledge-distillation-for-semantic-segmentation)
 
-## Datasets
+## 1.4 Datasets
 
-### Datasets for VLM Pre-training
+### 1.4.1 Datasets for VLM Pre-training
 
 
 | Dataset                                             |  Year  |     Num of Image-Text Paris     |     Language     | Project |                                  
@@ -114,9 +103,9 @@ If you find our work useful in your research, please consider citing:
 
 
 
-### Datasets for VLM Evaluation
+### 1.4.2 Datasets for VLM Evaluation
 
-#### Image Classification
+#### 1.4.2.1 Image Classification
 
 | Dataset                                             |  Year  | Classes | Training | Testing |Evaluation Metric| Project|                                  
 |-----------------------------------------------------|:------:|:-------:|:--------:|:-------:|:------:|:-----------:|
@@ -148,7 +137,7 @@ If you find our work useful in your research, please consider citing:
 |Hateful Memes|2020|2|8,500|500|ROC AUC|[Project](https://ai.facebook.com/blog/hateful-memes-challenge-and-data-set/)|
 |Country211|2021|211|43,200|21,100|Accuracy|[Project](https://github.com/openai/CLIP/blob/main/data/country211.md)|
 
-#### Image-Text Retrieval
+#### 1.4.2.2 Image-Text Retrieval
 
 | Dataset                                             |  Year  | Classes | Training | Testing |Evaluation Metric| Project|                                  
 |-----------------------------------------------------|:------:|:-------:|:--------:|:-------:|:------:|:-----------:|
@@ -156,7 +145,7 @@ If you find our work useful in your research, please consider citing:
 |COCO Caption|2015|-|82,783|5,000|Recall|[Project](https://github.com/tylin/coco-caption)
 
 
-#### Action Recognition
+#### 1.4.2.3 Action Recognition
 
 | Dataset                                             |  Year  | Classes | Training | Testing |Evaluation Metric| Project|                                  
 |-----------------------------------------------------|:------:|:-------:|:--------:|:-------:|:------:|:-----------:|
@@ -164,7 +153,7 @@ If you find our work useful in your research, please consider citing:
 |Kinetics700|2019|700|494,801|31,669|Mean (top1, top5)|[Project](https://www.deepmind.com/open-source/kinetics)|
 |RareAct|2020|122|7,607|-|mWAP, mSAP|[Project](https://github.com/antoine77340/RareAct)|
 
-#### Object Detection
+#### 1.4.2.4 Object Detection
 
 | Dataset                                             |  Year  | Classes | Training | Testing |Evaluation Metric| Project|                                  
 |-----------------------------------------------------|:------:|:-------:|:--------:|:-------:|:------:|:-----------:|
@@ -173,7 +162,7 @@ If you find our work useful in your research, please consider citing:
 |LVIS|2019|1203|118,000|5,000|Box mAP|[Project](https://www.lvisdataset.org/)|
 |ODinW|2022|314|132,413|20,070|Box mAP|[Project](https://eval.ai/web/challenges/challenge-page/1839/overview)|
 
-#### Semantic Segmentation
+#### 1.4.2.5 Semantic Segmentation
 
 | Dataset                                             |  Year  | Classes | Training | Testing |Evaluation Metric| Project|                                  
 |-----------------------------------------------------|:------:|:-------:|:--------:|:-------:|:------:|:-----------:|
@@ -182,9 +171,9 @@ If you find our work useful in your research, please consider citing:
 |Cityscapes|2016|19|2,975|500|mIoU|[Project](https://www.cityscapes-dataset.com/)|
 |ADE20k|2017|150|25,574|2,000|mIoU|[Project](https://groups.csail.mit.edu/vision/datasets/ADE20K/)|
 
-## Vision-Language Pre-training Methods
+## 1.5 Vision-Language Pre-training Methods
 
-### Pre-training with Contrastive Objective
+### 1.5.1 Pre-training with Contrastive Objective
 
 | Paper                                             |  Published in | Code/Project |                                  
 |---------------------------------------------------|:-------------:|:------------:|
@@ -218,7 +207,7 @@ If you find our work useful in your research, please consider citing:
 
 
 
-### Pre-training with Generative Objective
+### 1.5.2 Pre-training with Generative Objective
 
 | Paper                                             |  Published in | Code/Project |                                  
 |---------------------------------------------------|:-------------:|:------------:|
@@ -226,7 +215,7 @@ If you find our work useful in your research, please consider citing:
 |[CoCa: Contrastive Captioners are Image-Text Foundation Models](https://arxiv.org/abs/2205.01917)|arXiv 2022|[Code](https://github.com/lucidrains/CoCa-pytorch)|
 
 
-### Pre-training with Alignment Objective
+### 1.5.3 Pre-training with Alignment Objective
 
 | Paper                                             |  Published in | Code/Project |                                  
 |---------------------------------------------------|:-------------:|:------------:|
@@ -234,11 +223,11 @@ If you find our work useful in your research, please consider citing:
 |[DetCLIP: Dictionary-Enriched Visual-Concept Paralleled Pre-training for Open-world Detection](https://arxiv.org/abs/2209.09407)|NeurIPS 2022|-|
 |[nCLIP: Non-Contrastive Learning Meets Language-Image Pre-Training](https://arxiv.org/abs/2210.09304)|CVPR 2023|[Code](https://github.com/shallowtoil/xclip)|
 
-## Vision-Language Model Transfer Learning Methods
+## 1.6 Vision-Language Model Transfer Learning Methods
 
-### Transfer with Prompt Tuning
+### 1.6.1 Transfer with Prompt Tuning
 
-#### Transfer with Text Prompt Tuning
+#### 1.6.1.1 Transfer with Text Prompt Tuning
 
 | Paper                                             |  Published in | Code/Project |                                  
 |---------------------------------------------------|:-------------:|:------------:|
@@ -261,13 +250,13 @@ If you find our work useful in your research, please consider citing:
 |[LMPT: Prompt Tuning with Class-Specific Embedding Loss for Long-tailed Multi-Label Visual Recognition](https://arxiv.org/abs/2305.04536)|arXiv 2023|[Code](https://github.com/richard-peng-xia/LMPT)|
 |[Texts as Images in Prompt Tuning for Multi-Label Image Recognition](https://arxiv.org/abs/2211.12739)|CVPR 2023|[code](https://github.com/guozix/TaI-DPT)
 
-#### Transfer with Visual Prompt Tuning
+#### 1.6.1.2 Transfer with Visual Prompt Tuning
 
 | Paper                                             |  Published in | Code/Project |                                  
 |---------------------------------------------------|:-------------:|:------------:|
 |[Exploring Visual Prompts for Adapting Large-Scale Models](https://arxiv.org/abs/2203.17274)|arXiv 2022|[Code](https://github.com/hjbahng/visual_prompting)|
 
-#### Transfer with Text and Visual Prompt Tuning
+#### 1.6.1.3 Transfer with Text and Visual Prompt Tuning
 
 | Paper                                             |  Published in | Code/Project |                                  
 |---------------------------------------------------|:-------------:|:------------:|
@@ -276,7 +265,7 @@ If you find our work useful in your research, please consider citing:
 |[CAVPT: Dual Modality Prompt Tuning for Vision-Language Pre-Trained Model](https://arxiv.org/abs/2208.08340)|arXiv 2022|[Code](https://github.com/fanrena/DPT)|
 |[MaPLe: Multi-modal Prompt Learning](https://arxiv.org/abs/2210.03117)|CVPR 2023|[Code](https://github.com/muzairkhattak/multimodal-prompt-learning)|
 
-### Transfer with Feature Adapter
+### 1.6.1.4 Transfer with Feature Adapter
 
 | Paper                                             |  Published in | Code/Project |                                  
 |---------------------------------------------------|:-------------:|:------------:|
@@ -287,7 +276,7 @@ If you find our work useful in your research, please consider citing:
 |[CLIPPR: Improving Zero-Shot Models with Label Distribution Priors](https://arxiv.org/abs/2212.00784)|arXiv 2022|[Code](https://github.com/jonkahana/CLIPPR)|
 |[SgVA-CLIP: Semantic-guided Visual Adapting of Vision-Language Models for Few-shot Image Classification](https://arxiv.org/abs/2211.16191)|arXiv 2022|-|
 
-### Transfer with Other Methods
+### 1.6.2 Transfer with Other Methods
 
 | Paper                                             |  Published in | Code/Project |                                  
 |---------------------------------------------------|:-------------:|:------------:|
@@ -301,9 +290,9 @@ If you find our work useful in your research, please consider citing:
 
 
 
-## Vision-Language Model Knowledge Distillation Methods
+## 1.7 Vision-Language Model Knowledge Distillation Methods
 
-### Knowledge Distillation for Object Detection
+### 1.7.1 Knowledge Distillation for Object Detection
 | Paper                                             |  Published in | Code/Project |                                  
 |---------------------------------------------------|:-------------:|:------------:|
 |[ViLD: Open-vocabulary Object Detection via Vision and Language Knowledge Distillation](https://arxiv.org/abs/2104.13921)|ICLR 2022|[Code](https://github.com/tensorflow/tpu/tree/master/models/official/detection/projects/vild)|
@@ -322,7 +311,7 @@ If you find our work useful in your research, please consider citing:
 |[VLDet: Learning Object-Language Alignments for Open-Vocabulary Object Detection](https://arxiv.org/abs/2211.14843)|ICLR 2023|[Code](https://github.com/clin1223/VLDet)|
 |[F-VLM: Open-Vocabulary Object Detection upon Frozen Vision and Language Models](https://arxiv.org/abs/2209.15639)|ICLR 2023|[Code](https://github.com/google-research/google-research/tree/master/fvlm)|
 
-### Knowledge Distillation for Semantic Segmentation
+### 1.7.2 Knowledge Distillation for Semantic Segmentation
 
 | Paper                                             |  Published in | Code/Project |                                  
 |---------------------------------------------------|:-------------:|:------------:|
